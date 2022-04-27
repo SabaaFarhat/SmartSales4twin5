@@ -1,38 +1,66 @@
 {
-  "name": "node-express-jwt-auth",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3000",
   "dependencies": {
-    "bcrypt": "^5.0.1",
-    "body-parser": "^1.19.2",
-    "cookie-parser": "^1.4.6",
-    "cookies-parser": "^1.2.0",
-    "ejs": "^3.1.3",
-    "express": "^4.17.1",
-    "express-async-handler": "^1.2.0",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.23",
-    "multer": "^1.4.4",
-    "natural": "^5.1.13",
-    "nodemailer": "^6.7.3",
-    "nodemailer-sendgrid-transport": "^0.2.0",
-    "nodemon": "^2.0.15",
-    "stopword": "^2.0.1",
-    "validator": "^13.7.0"
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@react-google-maps/api": "^2.2.0",
+    "@reduxjs/toolkit": "^1.6.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.26.1",
+    "bootstrap": "^5.1.1",
+    "chart.js": "^3.5.1",
+    "font-awesome": "^4.7.0",
+    "google-map-react": "^2.1.10",
+    "materialize-css": "^1.0.0-rc.2",
+    "p-min-delay": "^4.0.1",
+    "rating-star": "^1.1.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.0-rc.0",
+    "react-chartjs-2": "^3.0.4",
+    "react-compound-timer": "^1.2.0",
+    "react-cookie": "^4.1.1",
+    "react-countdown-clock-timer": "^2.1.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-messenger-customer-chat": "^0.8.0",
+    "react-redux": "^7.2.5",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-share": "^4.4.0",
+    "react-skillbars": "^1.6.1",
+    "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1",
+    "sweetalert2": "^11.1.6",
+    "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/iamshaunjp/node-express-jwt-auth.git"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/iamshaunjp/node-express-jwt-auth/issues"
-  },
-  "homepage": "https://github.com/iamshaunjp/node-express-jwt-auth#readme"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
